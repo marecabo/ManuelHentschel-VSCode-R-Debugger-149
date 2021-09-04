@@ -1,0 +1,12 @@
+Package: renvdebugtest
+Title: RENV R Debugger Test
+Version: 0.1
+Authors@R: Me Myself
+Description: Test for VS COde R Debugger with renv
+Depends: R
+Imports: tidytransit
+License: MIT
+LazyData: true
+Suggests: languageserver, httpgd, vscDebugger
+Remotes: github::ManuelHentschel/vscDebugger
+Encoding: UTF-8
